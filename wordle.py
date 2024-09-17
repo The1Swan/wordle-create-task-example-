@@ -1,4 +1,8 @@
-word = "tempo"
+import random
+
+possible_word =["tempo", "front", "basen", "swift", "words"]
+
+word = random.choice(possible_word)
 
 #colors for printing
 default = '\033[0m'
